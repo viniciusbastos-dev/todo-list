@@ -34,12 +34,6 @@ Um aplicativo de lista de tarefas para aprender TypeScript de forma prática. Es
 ## Modelagem de Tipos (TypeScript)
 
 ```ts
-enum Category {
-  Work = 'Work',
-  Personal = 'Personal',
-  Hobby = 'Hobby',
-}
-
 type Status = 'todo' | 'in-progress' | 'done';
 type Priority = 'low' | 'medium' | 'high';
 
